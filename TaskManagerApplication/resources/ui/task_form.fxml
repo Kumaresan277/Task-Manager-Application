@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+
+<VBox spacing="10"
+xmlns="http://javafx.com/javafx/17"
+xmlns:fx="http://javafx.com/fxml/1" 
+
+fx:controller="taskmanager.ui.TaskFormController">
+	
+	<padding><Insets topRightBottomLeft="15.0" /></padding>
+	
+	<Label text="Title:"/>
+	<TextField fx:id="titleField"/>
+	
+	<Label text="Description:"/>
+	<TextArea fx:id="descriptionField" prefRowCount="3"/>
+	
+	<Label text="Status:"/>
+	<ComboBox fx:id="statusBox"/>
+	
+	<Label text="Due Date:"/>
+	<DatePicker fx:id="dueDatePicker"/>
+	
+	<Label text="Priority:"/>
+	<ComboBox fx:id="priorityBox"/>
+	
+	<HBox spacing="10" alignment="CENTER_RIGHT">
+	<Button text="OK" onAction="#handleOk" />
+	<Button text="Cancel" onAction="#handleCancel" />
+	</HBox>
+</VBox>
+	
+	
+	

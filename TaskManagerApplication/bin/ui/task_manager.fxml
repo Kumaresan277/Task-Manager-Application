@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<BorderPane xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="taskmanager.ui.TaskController">
+	
+	<top> 
+		<ToolBar>
+			<Button text="Add Task" onAction="#handleAdd" />
+			<Button text="Edit Task" onAction="#handleEdit" />
+			<Button text="Delete Task" onAction="#handleDelete" />
+			
+			<Separator orientation="VERTICAL" />
+			
+			<Button text="Import CSV" onAction="#handleImport" />
+			<Button text="Export CSV" onAction="#handleExport" />
+			
+			<Separator orientation="VERTICAL" />
+			
+			<Button text="Toggle Theme" onAction="#handleThemeToggle" />
+			
+			<Separator orientation="VERTICAL" />
+			
+			<Label text="Search:" />
+			<TextField fx:id="searchField" promptText="Search by Title or Status" />
+		</ToolBar>
+	</top>
+			
+	<center> 
+		<TableView fx:id="taskTable">
+			<columns>
+				<TableColumn fx:id="colId" text="ID" prefWidth="50" />
+				<TableColumn fx:id="colTitle" text="Title" prefWidth="150" />
+				<TableColumn fx:id="colDescription" text="Description" prefWidth="200" />
+				<TableColumn fx:id="colStatus" text="Status" prefWidth="100" />
+				<TableColumn fx:id="colDueDate" text="Due Date" prefWidth="100" />
+				<TableColumn fx:id="colPriority" text="Priority" prefWidth="50" />
+			</columns>
+		</TableView>
+	</center>
+</BorderPane>
+		
+
+
