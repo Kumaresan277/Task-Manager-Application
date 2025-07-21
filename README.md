@@ -15,6 +15,21 @@ and real-time nitifications for upcoming tasks.
 - Clean and user-friendly interface with JavaFX
 
 ---
+### 🖼️ Screenshots
+
+### Task Manager View
+![Home](./Screenshots/Task_Manager_View.png)
+
+### Add Task
+![Home](./Screenshots/Add_Task.png)
+
+### Edit Task
+![Home](./Screenshots/Edit_Task.png)
+
+### Delete Task
+![Home](./Screenshots/Delete_Task.png)
+
+---
 
 ### Database Setup
 
