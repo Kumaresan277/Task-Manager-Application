@@ -53,11 +53,16 @@ created_at TIMESTAMP DEFAULT
 CURRENT_TIMESTAMP
 );
 ```
+---
 
 ### REQUIREMENTS
 - Java 17+
 - JavaFX SDK 17+
 - MySQL Server
 - Eclipse IDE (or VS Code with JavaFX plugins)
+
+---
+### 👨‍🎓 Author
+- Kumaresan D
 
 
