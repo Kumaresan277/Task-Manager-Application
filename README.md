@@ -1,11 +1,11 @@
-# JavaFX Task Manager Application
+## JavaFX Task Manager Application
 
-A desktop-based Task Manager built using **JavaFX**, **JDBC**, and **MySQL**.
+- A desktop-based Task Manager built using **JavaFX**, **JDBC**, and **MySQL**.
 This application allows users to manage their daily tasks by adding, editing,
 deleting, and tracking task progress with features such as due dates, priorities,
 and real-time nitifications for upcoming tasks.
 ---
-## Features
+### Features
 - Add, Edit, Delete Tasks
 - Set Due Date adn Priority
 - Track Task Status (Pending, In Progress, Completed)
@@ -16,9 +16,9 @@ and real-time nitifications for upcoming tasks.
 
 ---
 
-## Database Setup
+### Database Setup
 
-Run the following SQL to create the required table:
+- Run the following SQL to create the required table:
 
 ```sql
 CREATE TABLE tasks (
@@ -33,7 +33,7 @@ CURRENT_TIMESTAMP
 );
 ```
 
-## REQUIREMENTS
+### REQUIREMENTS
 - Java 17+
 - JavaFX SDK 17+
 - MySQL Server
