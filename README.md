@@ -29,6 +29,12 @@ and real-time nitifications for upcoming tasks.
 ### Delete Task
 ![Home](./Screenshots/Delete_Task.png)
 
+### Notification Alert
+![Home](./Screenshots/Alert_Notification.png)
+
+### Toggle Theme
+![Home](./Screenshots/Toggle_Theme.png)
+
 ---
 
 ### Database Setup
